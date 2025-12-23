@@ -1,0 +1,10 @@
+project_id = "ghakxkmxwbuhflojzmix"
+
+[functions.tasks]
+verify_jwt = true
+
+[functions.send-notification]
+verify_jwt = false
+
+[functions.check-due-dates]
+verify_jwt = false
